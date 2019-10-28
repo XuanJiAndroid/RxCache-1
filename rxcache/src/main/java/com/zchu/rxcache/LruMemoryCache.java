@@ -9,7 +9,7 @@ import com.zchu.rxcache.utils.Occupy;
 
 import java.util.HashMap;
 
-import androidx.collection.LruCache;
+import com.zchu.rxcache.utils.LruCache ;
 
 /**
  * Created by Chu on 2016/9/10.

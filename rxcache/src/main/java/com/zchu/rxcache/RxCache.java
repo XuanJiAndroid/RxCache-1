@@ -17,7 +17,6 @@ import java.io.IOException;
 import java.lang.reflect.Type;
 import java.security.MessageDigest;
 
-import androidx.annotation.NonNull;
 import io.reactivex.BackpressureStrategy;
 import io.reactivex.Flowable;
 import io.reactivex.FlowableEmitter;
@@ -28,6 +27,9 @@ import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.ObservableSource;
 import io.reactivex.ObservableTransformer;
+
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 
 
 /**
